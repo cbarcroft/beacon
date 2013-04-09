@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @contact_person.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_contact_person_path(@contact_person) %> |
+<%= link_to 'Back', contact_people_path %>
