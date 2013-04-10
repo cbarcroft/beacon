@@ -34,4 +34,7 @@ Beacon::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  #Time formatting
+  Time::DATE_FORMATS[:standard_time] = "%B %d at %I:%M %p"
 end
