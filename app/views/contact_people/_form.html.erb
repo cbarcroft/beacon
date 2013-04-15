@@ -2,8 +2,12 @@
 
 
   <%= f.error_notification %>
-  <%= f.input :name %>
+  <%= f.input :name, as: :string %>
 
-  <%= f.button :submit %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                contact_groups_path, :class => 'btn' %>
+  </div>
 
 <% end %>

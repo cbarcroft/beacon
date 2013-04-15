@@ -1,4 +1,10 @@
 Beacon::Application.routes.draw do
+
+  devise_for :users
+
+  root :to => "home#index"
+
+  resources :contact_groups
   resources :contact_people
 
 

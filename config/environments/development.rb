@@ -37,4 +37,7 @@ Beacon::Application.configure do
 
   #Time formatting
   Time::DATE_FORMATS[:standard_time] = "%B %d at %I:%M %p"
+
+  #for devise:
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
