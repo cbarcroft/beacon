@@ -10,6 +10,7 @@ gem 'sqlite3', '1.3.7'
 gem 'devise', '~> 2.2.2'
 gem 'jquery-rails', '~> 2.2.1'
 gem 'simple_form', '~> 2.1.0'
+gem 'comfortable_mexican_sofa', '~> 1.8.0'
 
 # Use thin as the app server
  gem 'thin', '~> 1.5.1'
