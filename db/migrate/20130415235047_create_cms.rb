@@ -1,4 +1,4 @@
-ComfortableMexicanSofa.establish_connection(ActiveRecord::Base)
+#ComfortableMexicanSofa.establish_connection(ActiveRecord::Base)
 class CreateCms < ActiveRecord::Migration
   
   def self.up

@@ -1,7 +1,7 @@
 Beacon::Application.routes.draw do
   devise_for :users
 
- # root :to => "contact_groups#index"
+  #root :to => "cms_content#render_html" 
 
   resources :contact_groups
   resources :contact_people
